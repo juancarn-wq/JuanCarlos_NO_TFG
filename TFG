@@ -1,14 +1,1 @@
-git --version
-git config --global user.name "Juan Carlos"
-git config --global user.email "juancarn@ucm.es"
 
-cd "C:\Users\HP PROBOOK 430 G5\OneDrive\Escritorio\TFG\CodigoFinal.py"
-
-git init
-
-git add .
-git commit -m "Primer commit: proyecto TFG"
-
-git branch -M main
-git remote add origin https://github.com/juancarn_wq/JuanCarlos_NO_TFG.git
-git push -u origin main
