@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 
 
-rutall = r"\Users\HP PROBOOK 430 G5\OneDrive\Escritorio\Archive1\TensorsLaLiga"
-rutapl = r"\Users\HP PROBOOK 430 G5\OneDrive\Escritorio\Archive1\TensorsPremierLeague"
+rutall = r"Ruta a la caerpeta con los archivos"
+rutapl = r"Ruta a la carpeta con los archivos"
 
 archivosLL = [f for f in os.listdir(rutall) if f.endswith('.npz')]
 archivosPL = [f for f in os.listdir(rutapl) if f.endswith('.npz')]
@@ -540,4 +540,5 @@ plt.ylabel('P(x=C)')
 plt.legend(loc='upper right')
 
 plt.tight_layout()
+
 plt.show()
